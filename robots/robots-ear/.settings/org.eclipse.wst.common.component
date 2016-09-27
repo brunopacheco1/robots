@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="robots-ear">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
+        <dependent-module archiveName="gson-2.5.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/com/google/code/gson/gson/2.5/gson-2.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsoup-1.8.2.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/org/jsoup/jsoup/1.8.2/jsoup-1.8.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-io-2.4.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/commons-io/commons-io/2.4/commons-io-2.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="joda-time-2.8.2.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-lang3-3.4.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javaee-api-6.0.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/javax/javaee-api/6.0/javaee-api-6.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.ws.rs-api-2.0.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="swagger-jaxrs-1.5.9.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/io/swagger/swagger-jaxrs/1.5.9/swagger-jaxrs-1.5.9.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-dataformat-yaml-2.4.5.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.4.5/jackson-dataformat-yaml-2.4.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-core-2.4.5.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/core/jackson-core/2.4.5/jackson-core-2.4.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="snakeyaml-1.12.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/org/yaml/snakeyaml/1.12/snakeyaml-1.12.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-dataformat-xml-2.4.5.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.4.5/jackson-dataformat-xml-2.4.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-databind-2.4.5.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.4.5/jackson-databind-2.4.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-module-jaxb-annotations-2.4.5.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.4.5/jackson-module-jaxb-annotations-2.4.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stax2-api-3.1.4.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="swagger-core-1.5.9.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/io/swagger/swagger-core/1.5.9/swagger-core-1.5.9.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.6.3.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/org/slf4j/slf4j-api/1.6.3/slf4j-api-1.6.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-annotations-2.4.5.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/core/jackson-annotations/2.4.5/jackson-annotations-2.4.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-datatype-joda-2.4.5.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.4.5/jackson-datatype-joda-2.4.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="swagger-models-1.5.9.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/io/swagger/swagger-models/1.5.9/swagger-models-1.5.9.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="swagger-annotations-1.5.9.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/io/swagger/swagger-annotations/1.5.9/swagger-annotations-1.5.9.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="validation-api-1.1.0.Final.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsr311-api-1.1.1.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="reflections-0.9.10.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/org/reflections/reflections/0.9.10/reflections-0.9.10.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.19.0-GA.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="annotations-2.0.1.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="guava-18.0.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/com/google/guava/guava/18.0/guava-18.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-jaxrs-json-provider-2.4.5.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.4.5/jackson-jaxrs-json-provider-2.4.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-jaxrs-base-2.4.5.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.4.5/jackson-jaxrs-base-2.4.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ingressocom-robot-1.0.war" deploy-path="/" handle="module:/resource/ingressocom-robot/ingressocom-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ingressorapido-robot-1.0.war" deploy-path="/" handle="module:/resource/ingressorapido-robot/ingressorapido-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ingressoja-robot-1.0.war" deploy-path="/" handle="module:/resource/ingressoja-robot/ingressoja-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ticketbrasil-robot-1.0.war" deploy-path="/" handle="module:/resource/ticketbrasil-robot/ticketbrasil-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ticketsforfun-robot-1.0.war" deploy-path="/" handle="module:/resource/ticketsforfun-robot/ticketsforfun-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="g1-robot-1.0.war" deploy-path="/" handle="module:/resource/g1-robot/g1-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="blueticket-robot-1.0.war" deploy-path="/" handle="module:/resource/blueticket-robot/blueticket-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ingressocerto-robot-1.0.war" deploy-path="/" handle="module:/resource/ingressocerto-robot/ingressocerto-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="compreingressos-robot-1.0.war" deploy-path="/" handle="module:/resource/compreingressos-robot/compreingressos-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="portaldoingresso-robot-1.0.war" deploy-path="/" handle="module:/resource/portaldoingresso-robot/portaldoingresso-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sympla-robot-1.0.war" deploy-path="/" handle="module:/resource/sympla-robot/sympla-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="guicheweb-robot-1.0.war" deploy-path="/" handle="module:/resource/guicheweb-robot/guicheweb-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ticket360-robot-1.0.war" deploy-path="/" handle="module:/resource/ticket360-robot/ticket360-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="livepass-robot-1.0.war" deploy-path="/" handle="module:/resource/livepass-robot/livepass-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="minhaentrada-robot-1.0.war" deploy-path="/" handle="module:/resource/minhaentrada-robot/minhaentrada-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="diskingressos-robot-1.0.war" deploy-path="/" handle="module:/resource/diskingressos-robot/diskingressos-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bilheteriavirtual-robot-1.0.war" deploy-path="/" handle="module:/resource/bilheteriavirtual-robot/bilheteriavirtual-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eventick-robot-1.0.war" deploy-path="/" handle="module:/resource/eventick-robot/eventick-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ingressonacional-robot-1.0.war" deploy-path="/" handle="module:/resource/ingressonacional-robot/ingressonacional-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tudus-robot-1.0.war" deploy-path="/" handle="module:/resource/tudus-robot/tudus-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="facebook-robot-1.0.war" deploy-path="/" handle="module:/resource/facebook-robot/facebook-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ingresse-robot-1.0.war" deploy-path="/" handle="module:/resource/ingresse-robot/ingresse-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="enjooy-robot-1.0.war" deploy-path="/" handle="module:/resource/enjooy-robot/enjooy-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="agendaju-robot-1.0.war" deploy-path="/" handle="module:/resource/agendaju-robot/agendaju-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="agitocampinas-robot-1.0.war" deploy-path="/" handle="module:/resource/agitocampinas-robot/agitocampinas-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bheventos-robot-1.0.war" deploy-path="/" handle="module:/resource/bheventos-robot/bheventos-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="agitouuberlandia-robot-1.0.war" deploy-path="/" handle="module:/resource/agitouuberlandia-robot/agitouuberlandia-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="agitouguarulhos-robot-1.0.war" deploy-path="/" handle="module:/resource/agitouguarulhos-robot/agitouguarulhos-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="deboabrasilia-robot-1.0.war" deploy-path="/" handle="module:/resource/deboabrasilia-robot/deboabrasilia-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aloingressos-robot-1.0.war" deploy-path="/" handle="module:/resource/aloingressos-robot/aloingressos-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bilheteriadigital-robot-1.0.war" deploy-path="/" handle="module:/resource/bilheteriadigital-robot/bilheteriadigital-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="boadiversao-robot-1.0.war" deploy-path="/" handle="module:/resource/boadiversao-robot/boadiversao-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="centraldoseventos-robot-1.0.war" deploy-path="/" handle="module:/resource/centraldoseventos-robot/centraldoseventos-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eccopass-robot-1.0.war" deploy-path="/" handle="module:/resource/eccopass-robot/eccopass-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="joaowellington-robot-1.0.war" deploy-path="/" handle="module:/resource/joaowellington-robot/joaowellington-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="entravip-robot-1.0.war" deploy-path="/" handle="module:/resource/entravip-robot/entravip-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="estancianativasertaneja-robot-1.0.war" deploy-path="/" handle="module:/resource/estancianativasertaneja-robot/estancianativasertaneja-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="euagito-robot-1.0.war" deploy-path="/" handle="module:/resource/euagito-robot/euagito-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gazetadopovo-robot-1.0.war" deploy-path="/" handle="module:/resource/gazetadopovo-robot/gazetadopovo-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="guiabh-robot-1.0.war" deploy-path="/" handle="module:/resource/guiabh-robot/guiabh-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="guiadaboa-robot-1.0.war" deploy-path="/" handle="module:/resource/guiadaboa-robot/guiadaboa-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ingressomais-robot-1.0.war" deploy-path="/" handle="module:/resource/ingressomais-robot/ingressomais-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="nabaladadf-robot-1.0.war" deploy-path="/" handle="module:/resource/nabaladadf-robot/nabaladadf-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="oquerola-robot-1.0.war" deploy-path="/" handle="module:/resource/oquerola-robot/oquerola-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="obaoba-robot-1.0.war" deploy-path="/" handle="module:/resource/obaoba-robot/obaoba-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="partiubalada-robot-1.0.war" deploy-path="/" handle="module:/resource/partiubalada-robot/partiubalada-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pida-robot-1.0.war" deploy-path="/" handle="module:/resource/pida-robot/pida-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="primeingressos-robot-1.0.war" deploy-path="/" handle="module:/resource/primeingressos-robot/primeingressos-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="showdeingressos-robot-1.0.war" deploy-path="/" handle="module:/resource/showdeingressos-robot/showdeingressos-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="showscampinas-robot-1.0.war" deploy-path="/" handle="module:/resource/showscampinas-robot/showscampinas-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="soubh-robot-1.0.war" deploy-path="/" handle="module:/resource/soubh-robot/soubh-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="soues-robot-1.0.war" deploy-path="/" handle="module:/resource/soues-robot/soues-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ticketbis-robot-1.0.war" deploy-path="/" handle="module:/resource/ticketbis-robot/ticketbis-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ticketmix-robot-1.0.war" deploy-path="/" handle="module:/resource/ticketmix-robot/ticketmix-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="timeout-robot-1.0.war" deploy-path="/" handle="module:/resource/timeout-robot/timeout-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="totalacesso-robot-1.0.war" deploy-path="/" handle="module:/resource/totalacesso-robot/totalacesso-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="turismors-robot-1.0.war" deploy-path="/" handle="module:/resource/turismors-robot/turismors-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="usinadoingresso-robot-1.0.war" deploy-path="/" handle="module:/resource/usinadoingresso-robot/usinadoingresso-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wayticket-robot-1.0.war" deploy-path="/" handle="module:/resource/wayticket-robot/wayticket-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="guiadasemana-robot-1.0.war" deploy-path="/" handle="module:/resource/guiadasemana-robot/guiadasemana-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="billboard-robot-1.0.war" deploy-path="/" handle="module:/resource/billboard-robot/billboard-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gorockbee-robot-1.0.war" deploy-path="/" handle="module:/resource/gorockbee-robot/gorockbee-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eventim-robot-1.0.war" deploy-path="/" handle="module:/resource/eventim-robot/eventim-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="okingressos-robot-1.0.war" deploy-path="/" handle="module:/resource/okingressos-robot/okingressos-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="yupingressos-robot-1.0.war" deploy-path="/" handle="module:/resource/yupingressos-robot/yupingressos-robot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

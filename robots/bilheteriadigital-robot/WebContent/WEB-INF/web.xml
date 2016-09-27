@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<display-name>${project.name}</display-name>
+   
+	<context-param>
+		<param-name>resteasy.scan</param-name>
+		<param-value>true</param-value>
+	</context-param>
+	
+	<servlet>
+		<servlet-name>resteasy-servlet</servlet-name>
+		<servlet-class>org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>resteasy-servlet</servlet-name>
+		<url-pattern>/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>SwaggerBootstrap</servlet-name>
+        <servlet-class>com.dev.bruno.service.SwaggerBootstrap</servlet-class>
+        <init-param>
+            <param-name>api.title</param-name>
+            <param-value>${project.name}</param-value>
+        </init-param>
+        <init-param>
+            <param-name>api.version</param-name>
+            <param-value>${project.version}</param-value>
+        </init-param>
+        <init-param>
+            <param-name>api.basepath</param-name>
+            <param-value>http://localhost/${project.name}</param-value>
+        </init-param>
+        <init-param>
+            <param-name>api.resourcepackage</param-name>
+            <param-value>com.dev.bruno.resource</param-value>
+        </init-param>
+        <load-on-startup>2</load-on-startup>
+    </servlet>
+	
+	<!-- NORMALIZER QUEUE -->
+	<env-entry>
+		<env-entry-name>normalizerQueue</env-entry-name>
+		<env-entry-type>java.lang.String</env-entry-type>
+		<env-entry-value>java:jboss/queue/robot/normalizer/${project.name}</env-entry-value>
+	</env-entry>
+	
+	<!-- CRAWLER QUEUE -->
+	<env-entry>
+		<env-entry-name>crawlerQueue</env-entry-name>
+		<env-entry-type>java.lang.String</env-entry-type>
+		<env-entry-value>java:jboss/queue/robot/crawler/${project.name}</env-entry-value>
+	</env-entry>
+</web-app>

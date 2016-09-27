@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messaging-deployment xmlns="urn:jboss:messaging-deployment:1.0">
+	<hornetq-server>
+		<jms-destinations>
+			<!-- QUEUE OF DOCUMENTS TO NORMALIZE -->
+			<jms-queue name="${project.name}NormalizerQueue">
+			    <entry name="queue/robot/normalizer/${project.name}"/>
+			    <entry name="java:jboss/queue/robot/normalizer/${project.name}"/>
+			</jms-queue>
+			
+			<!-- QUEUE OF SEED TO CRAWL -->
+			<jms-queue name="${project.name}CrawlerQueue">
+			    <entry name="queue/robot/crawler/${project.name}"/>
+			    <entry name="java:jboss/queue/robot/crawler/${project.name}"/>
+			</jms-queue>
+		</jms-destinations>
+	</hornetq-server>
+</messaging-deployment>
