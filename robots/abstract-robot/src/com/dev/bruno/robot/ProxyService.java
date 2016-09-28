@@ -1,6 +1,5 @@
 package com.dev.bruno.robot;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,7 +22,7 @@ public class ProxyService {
 	private List<String> blockedIps = new ArrayList<>();
 	
 	@PostConstruct
-	public void updateList() throws IOException {
+	public void updateList() {
 		newIps = new ArrayList<>();
 		currentIp = null;
 

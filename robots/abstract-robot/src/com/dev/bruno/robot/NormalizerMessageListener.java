@@ -10,7 +10,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import javax.annotation.PostConstruct;
-import javax.ejb.EJB;
+import javax.inject.Inject;
 import javax.jms.JMSException;
 import javax.jms.Message;
 import javax.jms.MessageListener;
@@ -39,7 +39,7 @@ public class NormalizerMessageListener implements MessageListener {
 
 	protected Logger logger = Logger.getLogger(this.getClass().getName());
 	
-	@EJB
+	@Inject
 	protected NormalizerService normalizerService;
 	
 	private Map<String, Object> capturedDocuments;

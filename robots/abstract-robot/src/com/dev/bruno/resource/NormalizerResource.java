@@ -1,9 +1,7 @@
 package com.dev.bruno.resource;
 
-import io.swagger.annotations.Api;
-
-import javax.ejb.EJB;
 import javax.ejb.Stateless;
+import javax.inject.Inject;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -14,6 +12,8 @@ import com.dev.bruno.dto.NormalizerDTO;
 import com.dev.bruno.dto.RobotStatusDTO;
 import com.dev.bruno.service.NormalizerService;
 
+import io.swagger.annotations.Api;
+
 @Stateless
 @Path("/robot")
 @Consumes(MediaType.APPLICATION_JSON)
@@ -21,7 +21,7 @@ import com.dev.bruno.service.NormalizerService;
 @Api
 public class NormalizerResource {
 
-	@EJB
+	@Inject
 	private NormalizerService normalizerService;
 	
 	@POST

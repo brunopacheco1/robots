@@ -1,9 +1,7 @@
 package com.dev.bruno.resource;
 
-import io.swagger.annotations.Api;
-
-import javax.ejb.EJB;
 import javax.ejb.Stateless;
+import javax.inject.Inject;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -14,6 +12,8 @@ import com.dev.bruno.dto.CrawlerDTO;
 import com.dev.bruno.dto.RobotStatusDTO;
 import com.dev.bruno.service.CrawlerService;
 
+import io.swagger.annotations.Api;
+
 @Stateless
 @Path("/robot")
 @Consumes(MediaType.APPLICATION_JSON)
@@ -21,7 +21,7 @@ import com.dev.bruno.service.CrawlerService;
 @Api
 public class CrawlerResource {
 
-	@EJB
+	@Inject
 	private CrawlerService crawlerService;
 	
 	@POST
